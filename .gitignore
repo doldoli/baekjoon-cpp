@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build outputs (모든 하위 폴더 공통)
+**/main
+**/output/
+**/*.out
+**/*.exe
+**/*.o
+**/*.obj
+**/*.log
+
+# Xcode / CMake 등을 혹시 쓸 경우 대비
+build/
+**/build/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+
+# 기타
+*.tmp
