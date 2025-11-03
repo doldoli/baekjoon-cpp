@@ -23,8 +23,16 @@ launch.json
 void solve_55();
 void solve_56();
 void solve_57();
+void solve_58();
+void solve_59();
+void solve_60();
+void solve_61();
 int main() {
     //solve_55();
     //solve_56();
-    solve_57();
+    //solve_57();
+    //solve_58();
+    //solve_59();
+    //solve_60();
+    //solve_61();
 }
