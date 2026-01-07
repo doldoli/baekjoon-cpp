@@ -34,3 +34,12 @@ void solve_64() {
 // (bd - ae / a) y = (cd - af / a )
 // y = cd - af / bd - ae
 // x = (f - cy) / d
+
+/*
+연립 방정식 -> 행렬방정식 -> 크래머 공식으로 분기 줄이기
+
+1. 크래머 공식
+    - Ax = b
+    - x_i = det(A_i) / det(A)
+    - A_i 는 A의 i번째 열을 상수벡터 b로 치환한 행렬
+*/
