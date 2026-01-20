@@ -1,8 +1,8 @@
 # macOS
 .DS_Store
 
-# VS Code
-.vscode/
+# VS Code / launch.json 등의 설정
+# .vscode/ 
 
 # Build outputs (모든 하위 폴더 공통)
 **/main
@@ -22,6 +22,7 @@ DerivedData/
 
 # 기타
 *.tmp
+*.dSYM/
 
 __pycache__/
 *.py[cod]

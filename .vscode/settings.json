@@ -1,0 +1,9 @@
+{
+  "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+  "C_Cpp_Runner.msvcBatchPath": "",
+  "files.associations": {
+    "iostream": "cpp",
+    "vector": "cpp",
+    "ios": "cpp"
+  }
+}

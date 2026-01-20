@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang++ 활성 파일 빌드",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-std=c++17",
+				"-fcolor-diagnostics",
+				"-fansi-escape-codes",
+				"-g",
+				//"${file}", -> 현재 폴더의 하나의 파일만 컴파일
+				"${fileDirname}/*.cpp",// -> 폴더내 모든 cpp 파일 컴파일하겠다. 이거 하고 싶으면 code runner의 settings.json 설정에서도 바꿔주기
+				"-o",
+				//"${fileDirname}/${fileBasenameNoExtension}" -> 현재 파일하나 이름으로 실행파일 생성
+				"${fileDirname}/main"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "컴파일러: /usr/bin/clang++"
+		}
+	]
+}
