@@ -22,3 +22,7 @@ DerivedData/
 
 # 기타
 *.tmp
+
+__pycache__/
+*.py[cod]
+.venv

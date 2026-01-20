@@ -84,7 +84,7 @@ char 타입 벡터로 입력받기 (std::cin >> 은 개행(공백)아닌 문자�
                 }
             }
             if (change_cnt >= 33) {
-                change_cnt = 65 - change_cnt;
+                change_cnt = 64 - change_cnt;
             }
             if (change_cnt < min_change) min_change = change_cnt;
         }
